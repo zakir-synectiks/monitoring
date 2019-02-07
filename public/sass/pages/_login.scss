@@ -98,7 +98,7 @@ select:-webkit-autofill:focus {
 }
 
 .login-content {
-  max-width: 820px;
+  max-width: 980px;
   width: 100%;
   display: flex;
   align-items: stretch;
@@ -129,7 +129,7 @@ select:-webkit-autofill:focus {
 .app-grafana {
   .logo-wordmark {
     // background: url('../img/grafana_typelogo.svg') top center no-repeat;
-    width: 29rem;
+    width: 40rem;
     height: 70px;
   }
   h1 {
@@ -140,7 +140,7 @@ select:-webkit-autofill:focus {
 .app-enterprise {
   .logo-wordmark {
     // background: url('../img/grafana_enterprise_typelogo.svg') top center no-repeat;
-    width: 20rem;
+    width: 40rem;
     height: 70px;
   }
 
