@@ -40,7 +40,7 @@ export class Settings {
   constructor(options: Settings) {
     const defaults = {
       datasources: {},
-      windowTitlePrefix: 'Grafana - ',
+      windowTitlePrefix: 'Synectiks - ',
       panels: {},
       newPanelTitle: 'Panel Title',
       playlist_timespan: '1m',

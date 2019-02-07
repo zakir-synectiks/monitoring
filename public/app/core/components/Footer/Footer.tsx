@@ -1,5 +1,5 @@
 ﻿import React, { FC } from 'react';
-import { Tooltip } from '@grafana/ui';
+// import { Tooltip } from '@grafana/ui';
 
 interface Props {
   appName: string;
@@ -13,7 +13,7 @@ export const Footer: FC<Props> = React.memo(({appName, buildVersion, buildCommit
   return (
     <footer className="footer">
       <div className="text-center">
-        <ul>
+        {/* <ul>
           <li>
             <a href="http://docs.grafana.org" target="_blank">
               <i className="fa fa-file-code-o" /> Docs
@@ -41,7 +41,7 @@ export const Footer: FC<Props> = React.memo(({appName, buildVersion, buildCommit
               </Tooltip>
             </li>
           )}
-        </ul>
+        </ul> */}
       </div>
     </footer>
   );
