@@ -336,7 +336,7 @@ func (hs *HTTPServer) setIndexViewData(c *m.ReqContext) (*dtos.IndexViewData, er
 
 	data.NavTree = append(data.NavTree, &dtos.NavLink{
 		Text:         "Help",
-		SubTitle:     fmt.Sprintf(`%s v%s (%s)`, setting.ApplicationName, setting.BuildVersion, setting.BuildCommit),
+		SubTitle:     "",
 		Id:           "help",
 		Url:          "#",
 		Icon:         "gicon gicon-question",
