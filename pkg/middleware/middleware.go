@@ -3,14 +3,14 @@ package middleware
 import (
 	"strconv"
 
-	"github.com/grafana/grafana/pkg/bus"
-	"github.com/grafana/grafana/pkg/components/apikeygen"
-	"github.com/grafana/grafana/pkg/log"
-	m "github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/services/auth"
-	"github.com/grafana/grafana/pkg/services/session"
-	"github.com/grafana/grafana/pkg/setting"
-	"github.com/grafana/grafana/pkg/util"
+	"github.com/xformation/synectiks-monitoring/pkg/bus"
+	"github.com/xformation/synectiks-monitoring/pkg/components/apikeygen"
+	"github.com/xformation/synectiks-monitoring/pkg/log"
+	m "github.com/xformation/synectiks-monitoring/pkg/models"
+	"github.com/xformation/synectiks-monitoring/pkg/services/auth"
+	"github.com/xformation/synectiks-monitoring/pkg/services/session"
+	"github.com/xformation/synectiks-monitoring/pkg/setting"
+	"github.com/xformation/synectiks-monitoring/pkg/util"
 	macaron "gopkg.in/macaron.v1"
 )
 

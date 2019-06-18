@@ -7,9 +7,9 @@ import (
 	"net/url"
 	"time"
 
-	m "github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/setting"
-	"github.com/grafana/grafana/pkg/util"
+	m "github.com/xformation/synectiks-monitoring/pkg/models"
+	"github.com/xformation/synectiks-monitoring/pkg/setting"
+	"github.com/xformation/synectiks-monitoring/pkg/util"
 )
 
 var grafanaComProxyTransport = &http.Transport{

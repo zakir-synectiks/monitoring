@@ -8,9 +8,9 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"github.com/grafana/grafana/pkg/log"
-	"github.com/grafana/grafana/pkg/setting"
-	"github.com/grafana/grafana/pkg/util"
+	"github.com/xformation/synectiks-monitoring/pkg/log"
+	"github.com/xformation/synectiks-monitoring/pkg/setting"
+	"github.com/xformation/synectiks-monitoring/pkg/util"
 )
 
 type BasicUserInfo struct {

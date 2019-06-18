@@ -5,9 +5,9 @@ import (
 	"net/http/httptest"
 	"path/filepath"
 
-	"github.com/grafana/grafana/pkg/bus"
-	"github.com/grafana/grafana/pkg/middleware"
-	m "github.com/grafana/grafana/pkg/models"
+	"github.com/xformation/synectiks-monitoring/pkg/bus"
+	"github.com/xformation/synectiks-monitoring/pkg/middleware"
+	m "github.com/xformation/synectiks-monitoring/pkg/models"
 	"gopkg.in/macaron.v1"
 
 	. "github.com/smartystreets/goconvey/convey"

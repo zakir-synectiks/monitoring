@@ -4,10 +4,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/grafana/grafana/pkg/bus"
-	"github.com/grafana/grafana/pkg/log"
-	"github.com/grafana/grafana/pkg/metrics"
-	m "github.com/grafana/grafana/pkg/models"
+	"github.com/xformation/synectiks-monitoring/pkg/bus"
+	"github.com/xformation/synectiks-monitoring/pkg/log"
+	"github.com/xformation/synectiks-monitoring/pkg/metrics"
+	m "github.com/xformation/synectiks-monitoring/pkg/models"
 )
 
 type RuleReader interface {

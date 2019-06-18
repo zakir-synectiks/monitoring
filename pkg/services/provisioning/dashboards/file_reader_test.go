@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grafana/grafana/pkg/bus"
-	"github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/services/dashboards"
+	"github.com/xformation/synectiks-monitoring/pkg/bus"
+	"github.com/xformation/synectiks-monitoring/pkg/models"
+	"github.com/xformation/synectiks-monitoring/pkg/services/dashboards"
 
-	"github.com/grafana/grafana/pkg/log"
+	"github.com/xformation/synectiks-monitoring/pkg/log"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

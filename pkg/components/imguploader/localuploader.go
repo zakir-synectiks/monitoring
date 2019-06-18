@@ -5,7 +5,7 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/grafana/grafana/pkg/setting"
+	"github.com/xformation/synectiks-monitoring/pkg/setting"
 )
 
 type LocalUploader struct {

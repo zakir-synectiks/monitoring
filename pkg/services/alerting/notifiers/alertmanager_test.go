@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/grafana/grafana/pkg/components/simplejson"
-	"github.com/grafana/grafana/pkg/log"
-	m "github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/services/alerting"
+	"github.com/xformation/synectiks-monitoring/pkg/components/simplejson"
+	"github.com/xformation/synectiks-monitoring/pkg/log"
+	m "github.com/xformation/synectiks-monitoring/pkg/models"
+	"github.com/xformation/synectiks-monitoring/pkg/services/alerting"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

@@ -10,10 +10,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/grafana/grafana/pkg/log"
-	"github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/setting"
-	"github.com/grafana/grafana/pkg/tsdb"
+	"github.com/xformation/synectiks-monitoring/pkg/log"
+	"github.com/xformation/synectiks-monitoring/pkg/models"
+	"github.com/xformation/synectiks-monitoring/pkg/setting"
+	"github.com/xformation/synectiks-monitoring/pkg/tsdb"
 	"golang.org/x/sync/errgroup"
 
 	"github.com/aws/aws-sdk-go/aws"
@@ -21,9 +21,9 @@ import (
 	"github.com/aws/aws-sdk-go/aws/request"
 	"github.com/aws/aws-sdk-go/service/cloudwatch"
 	"github.com/aws/aws-sdk-go/service/ec2/ec2iface"
-	"github.com/grafana/grafana/pkg/components/null"
-	"github.com/grafana/grafana/pkg/components/simplejson"
-	"github.com/grafana/grafana/pkg/metrics"
+	"github.com/xformation/synectiks-monitoring/pkg/components/null"
+	"github.com/xformation/synectiks-monitoring/pkg/components/simplejson"
+	"github.com/xformation/synectiks-monitoring/pkg/metrics"
 )
 
 type CloudWatchExecutor struct {

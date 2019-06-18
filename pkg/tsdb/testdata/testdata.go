@@ -3,9 +3,9 @@ package testdata
 import (
 	"context"
 
-	"github.com/grafana/grafana/pkg/log"
-	"github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/tsdb"
+	"github.com/xformation/synectiks-monitoring/pkg/log"
+	"github.com/xformation/synectiks-monitoring/pkg/models"
+	"github.com/xformation/synectiks-monitoring/pkg/tsdb"
 )
 
 type TestDataExecutor struct {

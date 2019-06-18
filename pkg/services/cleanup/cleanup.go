@@ -7,12 +7,12 @@ import (
 	"path"
 	"time"
 
-	"github.com/grafana/grafana/pkg/bus"
-	"github.com/grafana/grafana/pkg/infra/serverlock"
-	"github.com/grafana/grafana/pkg/log"
-	m "github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/registry"
-	"github.com/grafana/grafana/pkg/setting"
+	"github.com/xformation/synectiks-monitoring/pkg/bus"
+	"github.com/xformation/synectiks-monitoring/pkg/infra/serverlock"
+	"github.com/xformation/synectiks-monitoring/pkg/log"
+	m "github.com/xformation/synectiks-monitoring/pkg/models"
+	"github.com/xformation/synectiks-monitoring/pkg/registry"
+	"github.com/xformation/synectiks-monitoring/pkg/setting"
 )
 
 type CleanUpService struct {

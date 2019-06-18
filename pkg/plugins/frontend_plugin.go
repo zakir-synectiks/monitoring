@@ -5,8 +5,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/grafana/grafana/pkg/setting"
-	"github.com/grafana/grafana/pkg/util"
+	"github.com/xformation/synectiks-monitoring/pkg/setting"
+	"github.com/xformation/synectiks-monitoring/pkg/util"
 )
 
 type FrontendPluginBase struct {

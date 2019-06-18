@@ -3,12 +3,12 @@ package sqlstore
 import (
 	"testing"
 
-	"github.com/grafana/grafana/pkg/components/simplejson"
-	"github.com/grafana/grafana/pkg/services/dashboards"
-	"github.com/grafana/grafana/pkg/services/guardian"
+	"github.com/xformation/synectiks-monitoring/pkg/components/simplejson"
+	"github.com/xformation/synectiks-monitoring/pkg/services/dashboards"
+	"github.com/xformation/synectiks-monitoring/pkg/services/guardian"
 
-	"github.com/grafana/grafana/pkg/bus"
-	"github.com/grafana/grafana/pkg/models"
+	"github.com/xformation/synectiks-monitoring/pkg/bus"
+	"github.com/xformation/synectiks-monitoring/pkg/models"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

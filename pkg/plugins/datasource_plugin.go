@@ -8,10 +8,10 @@ import (
 	"time"
 
 	"github.com/grafana/grafana-plugin-model/go/datasource"
-	"github.com/grafana/grafana/pkg/log"
-	"github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/plugins/datasource/wrapper"
-	"github.com/grafana/grafana/pkg/tsdb"
+	"github.com/xformation/synectiks-monitoring/pkg/log"
+	"github.com/xformation/synectiks-monitoring/pkg/models"
+	"github.com/xformation/synectiks-monitoring/pkg/plugins/datasource/wrapper"
+	"github.com/xformation/synectiks-monitoring/pkg/tsdb"
 	plugin "github.com/hashicorp/go-plugin"
 )
 

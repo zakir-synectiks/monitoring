@@ -3,9 +3,9 @@ package models
 import (
 	"strings"
 
-	"github.com/grafana/grafana/pkg/log"
-	"github.com/grafana/grafana/pkg/services/session"
-	"github.com/grafana/grafana/pkg/setting"
+	"github.com/xformation/synectiks-monitoring/pkg/log"
+	"github.com/xformation/synectiks-monitoring/pkg/services/session"
+	"github.com/xformation/synectiks-monitoring/pkg/setting"
 	"github.com/prometheus/client_golang/prometheus"
 	"gopkg.in/macaron.v1"
 )

@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grafana/grafana/pkg/models"
+	"github.com/xformation/synectiks-monitoring/pkg/models"
 )
 
 func TestStateIsUpdatedWhenNeeded(t *testing.T) {

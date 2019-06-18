@@ -3,11 +3,11 @@ package notifiers
 import (
 	"testing"
 
-	"github.com/grafana/grafana/pkg/log"
-	m "github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/services/alerting"
-	"github.com/grafana/grafana/pkg/services/alerting/notifiers"
-	"github.com/grafana/grafana/pkg/services/sqlstore"
+	"github.com/xformation/synectiks-monitoring/pkg/log"
+	m "github.com/xformation/synectiks-monitoring/pkg/models"
+	"github.com/xformation/synectiks-monitoring/pkg/services/alerting"
+	"github.com/xformation/synectiks-monitoring/pkg/services/alerting/notifiers"
+	"github.com/xformation/synectiks-monitoring/pkg/services/sqlstore"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

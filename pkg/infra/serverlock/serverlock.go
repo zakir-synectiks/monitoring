@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/grafana/grafana/pkg/log"
-	"github.com/grafana/grafana/pkg/registry"
-	"github.com/grafana/grafana/pkg/services/sqlstore"
+	"github.com/xformation/synectiks-monitoring/pkg/log"
+	"github.com/xformation/synectiks-monitoring/pkg/registry"
+	"github.com/xformation/synectiks-monitoring/pkg/services/sqlstore"
 )
 
 func init() {

@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/grafana/grafana/pkg/social"
+	"github.com/xformation/synectiks-monitoring/pkg/social"
 
-	"github.com/grafana/grafana/pkg/metrics/graphitebridge"
-	"github.com/grafana/grafana/pkg/setting"
+	"github.com/xformation/synectiks-monitoring/pkg/metrics/graphitebridge"
+	"github.com/xformation/synectiks-monitoring/pkg/setting"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

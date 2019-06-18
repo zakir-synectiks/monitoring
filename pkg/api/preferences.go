@@ -1,9 +1,9 @@
 package api
 
 import (
-	"github.com/grafana/grafana/pkg/api/dtos"
-	"github.com/grafana/grafana/pkg/bus"
-	m "github.com/grafana/grafana/pkg/models"
+	"github.com/xformation/synectiks-monitoring/pkg/api/dtos"
+	"github.com/xformation/synectiks-monitoring/pkg/bus"
+	m "github.com/xformation/synectiks-monitoring/pkg/models"
 )
 
 // POST /api/preferences/set-home-dash

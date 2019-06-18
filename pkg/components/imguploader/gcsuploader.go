@@ -8,8 +8,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/grafana/grafana/pkg/log"
-	"github.com/grafana/grafana/pkg/util"
+	"github.com/xformation/synectiks-monitoring/pkg/log"
+	"github.com/xformation/synectiks-monitoring/pkg/util"
 	"golang.org/x/oauth2/google"
 )
 

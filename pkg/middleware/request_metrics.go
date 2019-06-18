@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/grafana/grafana/pkg/metrics"
+	"github.com/xformation/synectiks-monitoring/pkg/metrics"
 	"gopkg.in/macaron.v1"
 )
 

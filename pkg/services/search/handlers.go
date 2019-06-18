@@ -3,9 +3,9 @@ package search
 import (
 	"sort"
 
-	"github.com/grafana/grafana/pkg/bus"
-	m "github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/registry"
+	"github.com/xformation/synectiks-monitoring/pkg/bus"
+	m "github.com/xformation/synectiks-monitoring/pkg/models"
+	"github.com/xformation/synectiks-monitoring/pkg/registry"
 )
 
 func init() {

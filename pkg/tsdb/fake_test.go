@@ -3,7 +3,7 @@ package tsdb
 import (
 	"context"
 
-	"github.com/grafana/grafana/pkg/models"
+	"github.com/xformation/synectiks-monitoring/pkg/models"
 )
 
 type FakeExecutor struct {

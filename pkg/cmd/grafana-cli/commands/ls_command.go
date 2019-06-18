@@ -5,9 +5,9 @@ import (
 	"fmt"
 
 	"github.com/fatih/color"
-	"github.com/grafana/grafana/pkg/cmd/grafana-cli/logger"
-	m "github.com/grafana/grafana/pkg/cmd/grafana-cli/models"
-	s "github.com/grafana/grafana/pkg/cmd/grafana-cli/services"
+	"github.com/xformation/synectiks-monitoring/pkg/cmd/grafana-cli/logger"
+	m "github.com/xformation/synectiks-monitoring/pkg/cmd/grafana-cli/models"
+	s "github.com/xformation/synectiks-monitoring/pkg/cmd/grafana-cli/services"
 )
 
 var ls_getPlugins func(path string) []m.InstalledPlugin = s.GetLocalPlugins

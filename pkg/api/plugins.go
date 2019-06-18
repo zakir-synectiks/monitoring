@@ -3,11 +3,11 @@ package api
 import (
 	"sort"
 
-	"github.com/grafana/grafana/pkg/api/dtos"
-	"github.com/grafana/grafana/pkg/bus"
-	m "github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/plugins"
-	"github.com/grafana/grafana/pkg/setting"
+	"github.com/xformation/synectiks-monitoring/pkg/api/dtos"
+	"github.com/xformation/synectiks-monitoring/pkg/bus"
+	m "github.com/xformation/synectiks-monitoring/pkg/models"
+	"github.com/xformation/synectiks-monitoring/pkg/plugins"
+	"github.com/xformation/synectiks-monitoring/pkg/setting"
 )
 
 func (hs *HTTPServer) GetPluginList(c *m.ReqContext) Response {

@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grafana/grafana/pkg/tsdb/elasticsearch/client"
+	"github.com/xformation/synectiks-monitoring/pkg/tsdb/elasticsearch/client"
 
-	"github.com/grafana/grafana/pkg/components/simplejson"
-	"github.com/grafana/grafana/pkg/tsdb"
+	"github.com/xformation/synectiks-monitoring/pkg/components/simplejson"
+	"github.com/xformation/synectiks-monitoring/pkg/tsdb"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

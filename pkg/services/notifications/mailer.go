@@ -12,8 +12,8 @@ import (
 	"net"
 	"strconv"
 
-	m "github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/setting"
+	m "github.com/xformation/synectiks-monitoring/pkg/models"
+	"github.com/xformation/synectiks-monitoring/pkg/setting"
 	gomail "gopkg.in/mail.v2"
 )
 

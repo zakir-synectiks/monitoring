@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"testing"
 
-	m "github.com/grafana/grafana/pkg/models"
+	m "github.com/xformation/synectiks-monitoring/pkg/models"
 	. "github.com/smartystreets/goconvey/convey"
 )
 
