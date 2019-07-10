@@ -79,6 +79,6 @@ COPY tools/phantomjs/render.js ./tools/phantomjs/render.js
 
 EXPOSE 3000
 COPY ./packaging/docker/run.sh /run.sh
-RUN chmod u+x ./run.sh
+RUN chmod u+x /run.sh
 USER grafana
 ENTRYPOINT [ "/run.sh" ]
